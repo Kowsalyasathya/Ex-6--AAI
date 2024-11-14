@@ -17,7 +17,7 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Print the unique sets of synonyms and antonyms.
 ### Program:
 
-##### Importing NLTK and Resource Downloads
+#### Importing NLTK and Resource Downloads
 
 ```Python
 import nltk
@@ -28,7 +28,7 @@ from nltk.tokenize import word_tokenize
 nltk.download( 'averaged_perceptron_tagger' )
 from nltk.corpus import wordnet
 ```
-##### Tokenization and Part-of-Speech Tagging
+#### Tokenization and Part-of-Speech Tagging
 
 ```Python
 sentence=input()
@@ -37,7 +37,7 @@ pos_tags= nltk.pos_tag(words)
 for word, tag in pos_tags:
     print(f"{word:<6} - {tag}")
 ```
-##### Extracting Synonyms and Antonyms from Words
+#### Extracting Synonyms and Antonyms from Words
 
 ```Python
 synonyms =[]
@@ -53,9 +53,11 @@ print ( "Antonyms : " ,set(antonyms))
 ```
 
 ### Output:
-##### Parts of Speech:
+#### Parts of Speech:
+
 ![image](https://github.com/user-attachments/assets/17312b9e-5714-48c9-ab04-bb32a8507b0d)
-##### Synonyms and Antonyms:
+#### Synonyms and Antonyms:
+
 ![image](https://github.com/user-attachments/assets/0c66c14f-b7f5-44cd-898e-18e906113885)
 
 ### Result:
