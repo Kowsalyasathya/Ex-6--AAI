@@ -1,5 +1,5 @@
 # EX-06 Implementation of Semantic Analysis
-# DATE:
+# Date:
 ### Developed By : KOWSALYA M
 ### Register Number: 212222230069
 ### Aim: 
