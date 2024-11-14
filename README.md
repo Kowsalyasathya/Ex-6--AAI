@@ -1,10 +1,16 @@
 # EX-06 Implementation of Semantic Analysis
+
 # Date:
+
 ### Developed By : KOWSALYA M
 ### Register Number: 212222230069
+
 ### Aim: 
+
 To perform Parts of speech identification and Synonym using Natural Language Processing
+
 ### Algorithm:
+
 Step 1: Import the nltk library.<br>
 Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.<br>
 Step 3:Accept user input for the text.<br>
@@ -15,6 +21,7 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
+
 ### Program:
 
 #### Importing NLTK and Resource Downloads
@@ -53,6 +60,7 @@ print ( "Antonyms : " ,set(antonyms))
 ```
 
 ### Output:
+
 #### Parts of Speech:
 
 ![image](https://github.com/user-attachments/assets/17312b9e-5714-48c9-ab04-bb32a8507b0d)
