@@ -1,7 +1,7 @@
 # EX-06 Implementation of Semantic Analysis
 # DATE:
-### DEVELOPED BY : KOWSALYA M
-### REGISTER NUMBER:212222230069
+### Developed By : KOWSALYA M
+### Register Number: 212222230069
 ### Aim: 
 To perform Parts of speech identification and Synonym using Natural Language Processing
 ### Algorithm:
